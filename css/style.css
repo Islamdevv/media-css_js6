@@ -1,0 +1,206 @@
+* {
+  font-family: Heebo;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#header {
+  padding: 20px 0;
+}
+.header {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
+.header a {
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+#about {
+  padding: 120px 0;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-text h1 {
+  font-size: 42px;
+  width: 420px;
+}
+.about-text p {
+  font-size: 16px;
+  width: 500px;
+  margin: 20px 0 30px 0;
+  line-height: 27px;
+}
+
+.about-text button {
+  padding: 8px 14px;
+  font-size: 18px;
+  background: #ff6464;
+  color: #fff;
+}
+
+.about img {
+  max-width: 270px;
+  width: 100%;
+}
+
+#post {
+  padding: 40px 0;
+  background: #edf7fa;
+}
+
+.post-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-top p {
+  font-size: 17px;
+}
+.post-top a {
+  color: #00a8cc;
+  font-size: 15px;
+}
+
+.post-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-box {
+  border-radius: 4px;
+  width: 350px;
+  background: #fff;
+  padding: 20px;
+  height: 220px;
+}
+
+.post-box h1 {
+  font-size: 24px;
+}
+
+.post-box h4 {
+  margin: 10px 0;
+  font-weight: 300;
+  font-size: 16px;
+}
+.post-box h4 span {
+  margin: 0 18px;
+  font-size: 16px;
+}
+.post-box p {
+  font-size: 15.5px;
+}
+
+#work {
+  padding: 30px 0;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.work h3 {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.work-box {
+  max-width: 930px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.519);
+}
+
+.work-box img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.work-text h1 {
+  font-size: 28px;
+}
+
+.work-year {
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.work-year h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #8695a4;
+}
+
+.work-year span {
+  padding: 1px 7px;
+  background: #142850;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 22px;
+  font-size: 16px;
+}
+
+.work-text p {
+  width: 550px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+#footer {
+  padding: 120px 0 30px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer-icons img {
+  max-width: 50px;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 16px;
+}
